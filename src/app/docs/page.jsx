@@ -1,10 +1,17 @@
 import Image from "next/image";
 
+
+
+export const metadata = {
+  title: 'My Docs Page',
+  description: '...',
+}
+
 const DocsPage = () => {
     return (
         <div>
             <h2>Our Official Documentation</h2>
-            <Image src = "/My pic.jpeg" alt = "profetion pic" width = "500" height = "600" ></Image>
+            <Image src = "/images/profetional pic.jpg" alt = "profetion pic" width = {400} height = {300} ></Image>
         </div>
     );
 };

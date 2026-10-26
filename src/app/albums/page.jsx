@@ -1,6 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: 'JSON | Albums',
+  description: '...',
+}
+
+
+
 const PhotoPage = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/albums");
   const albums = await res.json();

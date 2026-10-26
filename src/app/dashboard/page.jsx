@@ -1,5 +1,13 @@
 import React from 'react';
 
+
+
+export const metadata = {
+  title: 'daisyui | Dashboard',
+  description: '...',
+}
+
+
 const DashBoardPage = () => {
     return (
         <div>

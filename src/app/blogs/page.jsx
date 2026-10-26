@@ -1,6 +1,12 @@
 import React from 'react';
 import Post from '../components/Post';
 
+
+export const metadata = {
+  title: 'JSON | Blogs',
+  description: '...',
+}
+
 // TODO: Fetch data from an API instead of using static data
 const blogsData = [
   {
